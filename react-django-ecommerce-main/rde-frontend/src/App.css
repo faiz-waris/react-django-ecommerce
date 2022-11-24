@@ -1,0 +1,41 @@
+/* English Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap");
+/* Bangla Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+:root {
+  /*===== Colores =====*/
+  --first-color: #f2a20c;
+  --second-color: rgba(247, 237, 226, 1);
+  --white-color: #e9eaec;
+  --dark-color: #272d40;
+  --dark-color-lighten: #f2f5ff;
+  /*===== Fuente y tipografia =====*/
+  --body-font: "Montserrat", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+
+.line {
+  border: none;
+  width: 1px;
+  height: 20px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: var(--dark-color-lighten);
+}
+
+.line-h {
+  border: none;
+  width: 100px;
+  height: 1px;
+  background-color: var(--dark-color-lighten);
+}

@@ -1,0 +1,64 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: var(--second-color);
+  background: var(--dark-color);
+}
+
+.nav-title {
+  flex: 0.2;
+  font-family: "Bonheur Royale", cursive;
+  font-size: 1.5em;
+}
+
+.nav-title :hover {
+  filter: drop-shadow(5px 10px 15px rgb(0, 0, 0));
+  cursor: pointer;
+}
+
+.nav-bar-pages {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.nav-bar-pages .pages {
+  font-size: 1.5em;
+}
+
+.nav-bar-pages :hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 0.7;
+  text-align: left;
+}
+
+.nav-bar-icon {
+  display: flex;
+  flex: 0.1;
+  justify-content: flex-end;
+  margin-left: 25px;
+  color: whitesmoke;
+}
+
+.myicons {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* padding-right: 10px; */
+}
+
+.myicons :hover {
+  color: var(--first-color);
+  filter: drop-shadow(5px 10px 15px rgb(0, 0, 0));
+  cursor: pointer;
+}
