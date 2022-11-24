@@ -1,6 +1,6 @@
 
 # React-Django-Ecommerce App 🛒🌐
-Testing pull request by faizan
+Testing pull request by faiz
 <center>
     <img src="https://imgur.com/NW59paB.png" width=300px/>
 </center>
